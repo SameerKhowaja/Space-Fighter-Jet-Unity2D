@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: d34f03b8af63b124b961efb23ef1bb25
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Inria Serif
+  fontNames:
+  - Inria Serif
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 632303e319fe76d41af413b1b3140f88, type: 3}
+  - {fileID: 12800000, guid: d2188cc830dc03346b2aa12539fbfe94, type: 3}
+  - {fileID: 12800000, guid: 160bf6eaf5f435143ac07f5c2cb1238b, type: 3}
+  - {fileID: 12800000, guid: 27960eac01e9ffb47a2e867b69c6f0e8, type: 3}
+  - {fileID: 12800000, guid: 35610e6f766035e4194df6147fea0018, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
