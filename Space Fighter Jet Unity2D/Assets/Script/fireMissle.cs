@@ -6,12 +6,17 @@ public class fireMissle : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject firePrefab;
-
+    
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
             GameObject fire = Instantiate(firePrefab, firePoint.position, Quaternion.identity);
         }
+    }
+
+    public void Fire()
+    {
+        GameObject fire = Instantiate(firePrefab, firePoint.position, Quaternion.identity);
     }
 }

@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class startGameManager : MonoBehaviour
 {
     public Canvas thisCanvas;
+    public Canvas InstructionCanvas;
 
     public void StartBTN()
     {
@@ -19,4 +20,15 @@ public class startGameManager : MonoBehaviour
         thisCanvas.enabled = false;
         Application.Quit();
     }
+
+    public void InstructionBTN()
+    {
+        InstructionCanvas.enabled = true;
+    }
+
+    public void BackBTN()
+    {
+        InstructionCanvas.enabled = false;
+    }
+
 }
